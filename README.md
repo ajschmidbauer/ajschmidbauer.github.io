@@ -1,4 +1,4 @@
-| [Description](https://github.com/samskivert/coreen) | [Use Cases](UseCases.md)| [Results](https://github.com/samskivert/coreen) | [Setup](https://github.com/samskivert/coreen) | [Run](https://github.com/samskivert/coreen) | [Evaluation](https://github.com/samskivert/coreen)
+| [Description](README.md) | [Use Cases](UseCases.md)| [Results](Results.md) | [Setup](Setup.md) | [Run](Run.md) | [Evaluation](Evaluation.md)
 
 # Description
 
