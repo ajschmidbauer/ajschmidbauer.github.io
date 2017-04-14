@@ -1,4 +1,4 @@
-| [Description](https://github.com/samskivert/coreen) | [Use Cases](https://github.com/samskivert/coreen)| [Results](https://github.com/samskivert/coreen) | [Setup](https://github.com/samskivert/coreen) | [Evaluation](https://github.com/samskivert/coreen)
+| [Description](https://github.com/samskivert/coreen) | [Use Cases](https://github.com/samskivert/coreen)| [Results](https://github.com/samskivert/coreen) | [Setup](https://github.com/samskivert/coreen) | [Run](https://github.com/samskivert/coreen)| [Evaluation](https://github.com/samskivert/coreen)
 
 # Description
 
