@@ -1,16 +1,18 @@
+# Description
+
 # Use Cases
 
-# Who are Flame Graphs for?
+## Who are Flame Graphs for?
 
 Flame graphs are for you if you're doing something at scale - website, server, program, whatever. If something is done at a large enough scale, the time spent optimizing and finding inefficiencies will pay dividends in the future at scale too. A program would also benefit from flame graph profiling it it simply is very computationally intensive - even if it isn't done in a typical distributed web based scaling fashion.
 
-## How complete should your code be?
+### How complete should your code be?
 
 Flame graphs are something you use after you've written the code and have it running. Flame Graphs are not very helpful during design, development, and testing.  By using profilers and tools like Flame Graphs you can develop with the philosophy "code now, optimize later". You never truly know what is actually an optimization during development anyways. Another benefit to this philosophy is when optimization is not a priority during development and design, "clever" tricks to "speed-up" the program can stay out of the code (they often do little besides confuse future devs anyways).
 
-## Environment - Large Infrastructure
+### Environment - Large Infrastructure
 
-### How much are companies spending on infrastructure?
+#### How much are companies spending on infrastructure?
 
 Snap, Inc (Snapchat parent company) spends [$1 billion USD](https://www.fool.com/investing/2017/02/09/snap-inc-is-also-spending-1-billion-with-amazon-aw.aspx) annually on AWS infrastructure
 
@@ -26,25 +28,25 @@ You might be thinking that a 1% efficiency increase across the board sounds far 
 
 In many unoptimized and unprofiled services, there are likely many low hanging optimization fruits giving 10%+ efficiency gains that likely take less than an hour of the developers time to discover and fix.
 
-### So again, why profile and use flame graphs?
+#### So again, why profile and use flame graphs?
 
 After the long winded rant about infrastructure costs and optimization, you should profile and use flame graphs because it's easy and the results (savings) are worthwhile and significant. Something that takes less than an hour can have implications far beyond the cost of time spent.
 
-## Program Types
+### Program Types
 
 If you have a web server or service, batch processing system, speed critical system, or anything that has a lot of CPU time, you should try Flame Graph Profiling.
 
-## Code Patterns
+### Code Patterns
 
 If much of your program's work is done by external libraries, it's worth ensuring you're using them efficiently. It's also not hard to imagine that a library might have an inefficiency that hasn't been revealed until now because the library is being used at a scale not before experienced. If this is the case, find the libraries inefficiency, fix it, and submit a pull request.
 
-### Common Examples
+#### Common Examples
 
 Some libraries have common patterns where they recommend you use them in a specific way, these include JSON parsers, serialization libraries, string functions, and network/communication libraries.
 
 A frequent pattern that appears in inefficiencies is not treating a library object as a resource. Let's suppose you need to get some data, do some work on it, then send the result over the network. The network communication here requires serializing the data. A frequent but inefficient pattern is to construct a new serializer object everytime to accomplish this. You can make many serializers across instances, threads, and method calls that do mostly the same thing. A better much more efficient solution is to make a static serializer resource.
 
-## Language
+### Language
 
 There is no catch-all tool for flame graphs yet. There is typically one tool for one (or a small handful of) language(s). Some languages are easier to profile than others.
 
@@ -68,19 +70,19 @@ The **easiest languages** at this time to profile are:
 The languages with the seemingly **best tools** as of now are Go (tool developed by Uber) and Java (tool developed by Netflix).  
 
 
-# Who are Flame Graphs not for?
+## Who are Flame Graphs not for?
 
-## Program Types
+### Program Types
 GUI/Frontend programs that are not widely used and where most of the time is spent waiting on user input.
 
 Small services - optimization has a smaller return when not done at scale. 
 
-## Costs
+### Costs
 If running your web service costs an inconsequential annual amount, it's likely not worth your time to profile the service for inefficiencies.
 
-# How are flame graphs useful to software engineers?
+## How are flame graphs useful to software engineers?
 
-## How should a developer use flame graphs?
+### How should a developer use flame graphs?
 
 1. State the main purpose of your application
 	* For example, let's imagine we are the Google Maps backend. We want to do receive some data (address waypoints for instance), do some expensive processing (I imagine routing is non-trivial), and return the route over the network.
@@ -92,7 +94,7 @@ If running your web service costs an inconsequential annual amount, it's likely 
 	* Were your assumptions correct? Or are you spending most of your time constructing objects that could be static resources?
 	* Also compare different operations. For example, do you spend more time looking up an address than finding a route there? Also, do you spend more time constructing an object than you do using it (especially true of library generated objects)?
 
-## Reading Flame Graphs
+### Reading Flame Graphs
 
 These are actually quite simple to read.
 
@@ -103,11 +105,11 @@ The above image shows MySQL codepaths consuming CPU cycles. The x-axis represent
 This example is from [Brendan Gregg's website](http://www.brendangregg.com/index.html), the creator of Flame Graphs.
 
 
-# Test Systems
+## Test Systems
 
-## Good canidates we won't be profiling
+### Good canidates we won't be profiling
 
-### Open-Source Distributed Systems
+#### Open-Source Distributed Systems
 
 These would all be great canidates for profiling - they have streaming data, perform pretty hefty computations, and are done at scale. Unfortunately, these all seem to be C++ code. At the present time, C++ code is not easy to profile and generate flame graphs for. It has been done, but the tooling does not seem complete.
 
@@ -117,9 +119,9 @@ The systems we could have profiled here include:
 * [Folding@home](https://folding.stanford.edu/)
 * [Bitcoin](https://bitcoin.org/en/)
 
-## Systems we can easily profile
+### Systems we can easily profile
 
-### Program Choosing Criteria
+#### Program Choosing Criteria
 
 The obvious candidates are any web company's server backend, but those are not open source, so we are targeting anything that meets the follow criteria:
 
@@ -130,7 +132,7 @@ The obvious candidates are any web company's server backend, but those are not o
 	* We can get more data points to generate the flame graph
 	* Even if it is a GUI program, for the purposes of education it will work nicely
 
-### Program Candidate List
+#### Program Candidate List
 
 Note that we will not be profiling all of these, but rather those that are easiest to set up and build from source.
 
