@@ -84,3 +84,7 @@ This is the order of commands to be ran:
 4. ```sudo perf script | ./FlameGraph/stackcollapse-perf.pl > out.perf-folded```
 5. grep "MyProgramName" out.perf-folded | ./FlameGraph/flamegraph.pl > myProgramGraph.svg
 6. firefox myProgramGraph.svg
+
+### Source
+
+(Brendan Gregg's Website)[http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html#Instructions]

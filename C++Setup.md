@@ -34,3 +34,8 @@ Occasionally, g++ will remove or share stack frame pointers and method stacks wi
 ### That's It!
 
 You are now setup and ready to profile your C/C++ application on Linux! Read more in our instructions on profiling and generating flame graphs for C++ programs.
+
+
+### Source
+
+(Brendan Gregg's Website)[http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html#Instructions]
