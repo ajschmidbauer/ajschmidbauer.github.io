@@ -69,7 +69,6 @@ Make sure you are in the same directory used above to clone the FlameGraph repos
     Once you know the reported name of your program (bottom most layer specific to your program), you can filter the stack results with grep.
     It also may be easier to find your program's name by clicking on stacks which will zoom the graph to that area and you can see the results more closely.
     
-    
     ```
     grep "MyProgramName" out.perf-folded | ./FlameGraph/flamegraph.pl > myProgramGraph.svg
     ```
