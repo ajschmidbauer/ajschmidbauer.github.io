@@ -2,5 +2,7 @@
 
 # Setup
 There are currently two Setup tutorials:
+
 [C++](C++Setup.md)
+
 [Go](GoSetup.md)
