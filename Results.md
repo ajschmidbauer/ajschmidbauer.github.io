@@ -33,7 +33,9 @@ I expected that the majority of CPU time would be spent in the fstream libraries
 
 After compiling the program with ```-fno-omit-frame-pointer```, we were able to profile the program using our [C++ Flame Graph Instructions](C++RunningInstructions.md).
 
-The initial results can be viewed in [this flame graph](Flame Graphs/OS_Project.svg).
+The initial results can be viewed in this flame graph (click to enlarge).
+
+[![VDI OS Project flame graph preview](./Flame Graphs/OS.png)](Flame Graphs/OS_Project.svg).
 
 This graph is generated while writing 1.6GB to the VDI file. Useful work is done for all methods above the QAbstractButton::clicked method. Once the "Transfer to VDI" button is clicked the transfer code runs. The red flag here is that code only runs for 24.58% of the program's CPU time. This means we're doing mean useless work (in this case memory allocation and deallocation) for roughly 75% of the time.
 
@@ -45,7 +47,9 @@ It turns out we were wrong - most CPU time is not spent interacting with the fil
 
 After reading through the code I found one section that was especially to blame for efficient memory use.
 
-The [flame graph after the fix can be seen here](Flame Graphs/OS_Project_Optimized.svg).
+The flame graph after the fix can be seen here (click to enlarge).
+
+[![Folding at Home preview flame graph](./Flame Graphs/OS_Optimized.png)](Flame Graphs/OS_Project_Optimized.svg).
 
 Now our useful work has increased from **25% to 91.11%** - nearly a threefold increase!
 
@@ -74,7 +78,9 @@ Syncthing is written in Go and these results were created with Uber's go-torch t
 
 ### Profiling Adding a Sync Directory
 
-When adding a folder to Syncthing the first thing it must do is create a SHA256 hash of every file in the directory to track changes. This is an inheritently CPU intensive task. The results of this are included in the the [Scan New Folder](Flame Graphs/syncthingScanFolder.svg) flame graph linked here.
+When adding a folder to Syncthing the first thing it must do is create a SHA256 hash of every file in the directory to track changes. This is an inheritently CPU intensive task. The results of this are included in the the scan new folder flame graph below (click to enlarge).
+
+[![Syncthing scan new folder flame graph preview](./Flame Graphs/syncthingScan.png)](./Flame Graphs/syncthingScanFolder.svg)
 
 You can see that the majority of CPU time is spent in Go's SHA256 library. The questions here for Syncthing developers are can anything outside the hash function be optimized and is Go's SHA256 implementation efficient?
 
@@ -82,4 +88,8 @@ You can see that the majority of CPU time is spent in Go's SHA256 library. The q
 
 I wasn't really sure what to expect here for CPU time - maybe encryption, creating blocks, state synchonization between clients, etc.
 
-As we can see in the [Sync Folder](Flame Graphs/syncthingSyncFolder.svg) flame graph, the majority of time is spent generating summaries. These summaries are likely used for the percentage complete and state synchonization between clients.
+As we can see in the sync folder flame graph below, the majority of time is spent generating summaries. These summaries are likely used for the percentage complete and state synchonization between clients.
+
+Click to enlarge.
+
+[![Syncthing sync operation flame graph preview](./Flame Graphs/syncthingSync.png)](./Flame Graphs/syncthingSyncFolder.svg)
