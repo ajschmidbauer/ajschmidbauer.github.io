@@ -1,3 +1,5 @@
+| [Description](README.md) | [Use Cases](UseCases.md)| [Results](Results.md) | Setup | [Run](Run.md) | [Evaluation](Evaluation.md)
+
 # Go Installation Steps
 
 **Disclaimer:** This likely works on operating systems that are not Linux since the profiler is written in Go which is cross platform, but we did not test these instructions with anything besides Linux.
