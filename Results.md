@@ -2,10 +2,10 @@
 
 # Results
 
-![FG1](./1.svg)
+[FG1](1.svg)
 
-![FG2](./2.svg)
+[FG2](2.svg)
 
-![FG3](./3.svg)
+[FG3](3.svg)
 
-![FG4](./4.svg)
+[FG4](4.svg)
