@@ -3,6 +3,7 @@
 # Setup
 
 Setup is fairly easy, by varies wildly based on programming language and operating system.
+
 There are currently two Setup tutorials:
 
 [C++ (Linux)](C++Setup.md)
