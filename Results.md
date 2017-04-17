@@ -2,7 +2,9 @@
 
 # Results
 
-[FG1](1.svg)
+The following are examples of results obtained using Flame Graphs:
+
+[FG](1.svg)
 
 [FG2](2.svg)
 
