@@ -6,13 +6,20 @@
 
 "Folding@home (FAH or F@h) is a distributed computing project for disease research that simulates protein folding, computational drug design, and other types of molecular dynamics." - [Wikipedia](https://en.wikipedia.org/wiki/Folding@home)
 
-Thousands of people have Folding@home installed on their PCs to try 
+Thousands of people have Folding@home installed on their PCs to try and find cures to many of humanity's biggest problems.
+
+Folding@home is written in C++, but I was not able to acquire the source, so this is ran on the precompiled distributed binaries - hence the large number of unknowns in the flame graph.
+
+There are some interesting results in [this flame graph](Flame Graphs/FoldingAtHomeCore.svg).
 
 50.63% of the execution time was spent in a library called [Gromacs](https://redmine.gromacs.org/) which is used to simulate Newtonian physics for millions of particales in macro biomolecules, especially protiens.
 
-Great, we pass the santity check, we are spending the majority of our time doing something that sounds like our main task. The question is what are we doing with the remaining 50% of the time?
+Great, we pass the santity check, we are spending the majority of our time doing something that sounds like our main task. The question is what are we doing with the remaining 50% of the time? This is a question left for the developers of this project with access to the source where they can create debug symbols and reduce the number of unknown stack frames.
 
-## VDI ext2 file utitility
+## VDI ext2 file utility
+
+
+
 
 ## Syncthing
 
