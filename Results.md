@@ -82,17 +82,3 @@ You can see that the majority of CPU time is spent in Go's SHA256 library. The q
 I wasn't really sure what to expect here for CPU time - maybe encryption, creating blocks, state synchonization between clients, etc.
 
 As we can see in the [Sync Folder](Flame Graphs/syncthingSyncFolder.svg) flame graph, the majority of time is spent generating summaries. These summaries are likely used for the percentage complete and state synchonization between clients.
-
-
-
-
-
-The following are examples of results obtained using Flame Graphs:
-
-[FG1](1.svg)
-
-[FG2](2.svg)
-
-[FG3](3.svg)
-
-[FG4](4.svg)
