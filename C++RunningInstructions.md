@@ -88,4 +88,4 @@ This is the order of commands to be ran:
 
 ### Source
 
-(Brendan Gregg's Website)[http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html#Instructions]
+[Brendan Gregg's Website](http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html#Instructions)
