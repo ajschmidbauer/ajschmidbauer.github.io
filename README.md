@@ -2,7 +2,7 @@
 
 # Flame Graphs
 
-## Tyler Hovanec and Alexander Schmidbauer
+#### Tyler Hovanec and Alexander Schmidbauer
 
 # Description
 
