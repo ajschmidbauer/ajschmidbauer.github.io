@@ -40,4 +40,4 @@ You are now setup and ready to profile your C/C++ application on Linux! Read mor
 
 ### Source
 
-(Brendan Gregg's Website)[http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html#Instructions]
+[Brendan Gregg's Website](http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html#Instructions)
