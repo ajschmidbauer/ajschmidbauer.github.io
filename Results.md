@@ -10,7 +10,8 @@ Thousands of people have Folding@home installed on their PCs to try and find cur
 
 Folding@home is written in C++, but I was not able to acquire the source, so this is ran on the precompiled distributed binaries - hence the large number of unknowns in the flame graph.
 
-There are some interesting results in [this flame graph](Flame Graphs/FoldingAtHomeCore.svg).
+There are some interesting results in this flame graph (click to enlarge)
+ [![Folding at Home preview flame graph](./Flame Graphs/FoldingAtHome.png)](./Flame Graphs/FoldingAtHomeCore.svg).
 
 50.63% of the execution time was spent in a library called [Gromacs](https://redmine.gromacs.org/) which is used to simulate Newtonian physics for millions of particales in macro biomolecules, especially protiens.
 
