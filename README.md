@@ -1,9 +1,9 @@
 | Description | [Use Cases](UseCases.md)| [Results](Results.md) | [Setup](Setup.md) | [Run](Run.md) | [Evaluation](Evaluation.md)
 
-# Flame Graphs
+Welcome to my portfolio. This space will include many examples of my work, ranging from code to technical documents. In addition, I have included a light description version of my resume for readers.
 
-#### Tyler Hovanec and Alexander Schmidbauer
+# Education
 
-# Description
-
-Flame graphs allow you to easily visualize different components in currently running processes of profiled software. The most common use is to help graph codepaths using CPU cycles, however with proper flagging and familiarity with the tool users can track memory usage, disk usage, networks, file system access, IO streams, CPU events such as cache misses, and latency. Flame Graphs is extremely versatile to the advanced user, and supports many languages.
+##Youngstown State University
+###Bachelor of Science in Computer Science
+####Minor in Mathematics
