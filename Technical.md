@@ -6,5 +6,29 @@ I have a lot of experience writing many different kinds of technical documents, 
 
 ## Memo to Client
 
-This document outlines the problem a client has that the organization I wrote on behalf of can fix through a partnership. It highlights my organization's experience, our plan, and similiar values to persuade the client to consider the offer. This document was written for a Professional and Technical Writing class based on real experiences, and has been edited to protect anonymity of those involved.
+This document outlines the problem a client has that the organization I wrote on behalf of can fix through a partnership. It highlights my organization's experience, our plan, and similiar values to persuade the client to consider the offer.
+
 [Client Memo](clientmemo.pdf)
+
+## Economic Examination
+
+This document outlines the Syrian Refugee Crisis in Germany and how it will impact the economy of the European Union. This document makes use of economic principles and infographics to persuade the reader.
+
+[Economic Examination](economy.pdf)
+
+## Statistical Analysis
+
+This document covers the statistical analysis of claims made about the video game Minecraft to test their validity. This document covers statistical methods, data collection, mathematical equations and infographics to make the analysis easier for the reader to understand.
+[Statistical Analysis](statistics.pdf)
+
+## Instructional
+
+This brief instructional document covers how to tie a windsor knot neck tie. It is written for an audience with little knowledge of the topic, and utilizes visuals to guide the reader.
+
+[Instructional](tieatie.pdf)
+
+## Product Instructional
+
+This in depth instructional document was written for a client I made a website for. This document covers how to edit and update the website using pictures and a clear defined vocabulary.
+
+[Product Instructional](tutorial.pdf)
