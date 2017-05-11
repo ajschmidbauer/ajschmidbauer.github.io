@@ -1,4 +1,4 @@
-| Main | [Experience](Experience.md)| [Technical Documents](Technical.md) | [Code](Code.md) | [Project](Project.md)
+| Main | [Experience](Experience.md)| [Course Work](Courses.md)| [Technical Documents](Technical.md) | [Code](Code.md) | [Project](Project.md)
 
 Welcome to my portfolio. This space will include many examples of my work, ranging from code to technical documents. In addition, I have included a light description version of my resume for readers.
 
