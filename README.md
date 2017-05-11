@@ -4,9 +4,8 @@ Welcome to my portfolio. This space will include many examples of my work, rangi
 
 # Education
 
-### Youngstown State University
-### Bachelor of Science in Computer Science
-#### Minor in Mathematics
+### Youngstown State University 2017
+### Bachelor of Science in Computer Science, Minor in Mathematics
 
 I originally went into college to study Electrical Engineering. The first year, I gained a lot of experience with engineering principles and working with engineers from other disciplines. After studying Digital Circuits, I decided to pursue my interest in boolean logic further and joined the computer science program. As a computer science student, I discovered my talent for algorithm design and eventually created a new algorithm for my senior project.
 
