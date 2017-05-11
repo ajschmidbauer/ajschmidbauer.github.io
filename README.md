@@ -4,6 +4,6 @@ Welcome to my portfolio. This space will include many examples of my work, rangi
 
 # Education
 
-## Youngstown State University
+### Youngstown State University
 ### Bachelor of Science in Computer Science
 #### Minor in Mathematics
