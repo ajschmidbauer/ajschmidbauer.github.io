@@ -32,3 +32,10 @@ This brief instructional document covers how to tie a windsor knot neck tie. It 
 This in depth instructional document was written for a client I made a website for. This document covers how to edit and update the website using pictures and a clear defined vocabulary.
 
 [Product Instructional](tutorial.pdf)
+
+## Tool Write Up
+
+This write up is about the tool Flame Graphs. It includes use cases, setup and run tutorials, as well as an evaluation of the tool. This was written with a technical audience in mind. 
+
+[Flame Graphs](
+https://ysu-csis-se.github.io/csci-5802-tooldemo-flamegraphs/)
