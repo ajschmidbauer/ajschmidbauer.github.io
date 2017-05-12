@@ -1,4 +1,4 @@
-| [Main](README.md) | [Experience](Experience.md)| [Course Work](Courses.md)| [Technical Documents](Technical.md) | [Code](Code.md) | Project
+| [Main](README.md) | [Experience](Experience.md)| [Course Work](Courses.md)| Technical Documents | [Code](Code.md) | [Project](Project.md)
 
 # Technical Documents
 
