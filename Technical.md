@@ -19,6 +19,7 @@ This document outlines the Syrian Refugee Crisis in Germany and how it will impa
 ## Statistical Analysis
 
 This document covers the statistical analysis of claims made about the video game Minecraft to test their validity. This document covers statistical methods, data collection, mathematical equations and infographics to make the analysis easier for the reader to understand.
+
 [Statistical Analysis](statistics.pdf)
 
 ## Instructional
