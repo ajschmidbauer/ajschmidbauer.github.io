@@ -24,7 +24,8 @@ A repository containing the algorithm written in C++ and tools to manipulate the
 
 When considering the runtime, the algorithm produces very accurate results when compared to the optimal solution.
 
-Considering the famous 50 USA Landmarks data set:
+Considering the famous [50 USA Landmarks data set](
+http://www.math.uwaterloo.ca/tsp/usa50/index.html):
 
 ![solution](solution.png)
 
