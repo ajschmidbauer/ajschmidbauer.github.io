@@ -36,6 +36,14 @@ In addition to the 50 USA Landmarks data set, I also examined the results of oth
 
 ![datasets](datasets.png)
 
+![datasets](calculations.png)
+
+![datasets](closeness.png)
+
+![datasets](results.png)
+
+
+
 ## Presentation
 
 In addition, I presented my findings to a group of my professors and peers. I was responsible for explaining the idea to a technical audience and defending my work against seasoned computer scientists.
