@@ -24,7 +24,7 @@ I developed this website taking into mind the fact that I would not be maintaini
 
 Before I finished, I created documentation on all site functionality to aide future administrators in maintaining the website. I also defined guidelines and technical specifications on the new logo I had created for the network that is now being used in all official material.
 
-You may view my work (here)[http://www.alzarnet.org/].
+You may view my work [here](http://www.alzarnet.org/).
 
 ## Software Engineer Team Leader
 
