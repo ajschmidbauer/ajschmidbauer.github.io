@@ -38,11 +38,11 @@ In addition to the 50 USA Landmarks data set, I also examined the results of oth
 
 ![datasets](calculations.png)
 
-![datasets](closeness.png)
+The amount of calculations needed in each data set closely match the theoretical needs.
 
 ![datasets](results.png)
 
-
+The algorithm produces outstanding results when comparing many different data sets of different sizes.
 
 ## Presentation
 
