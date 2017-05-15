@@ -24,7 +24,7 @@ The website was developed for the caregivers of Alzheimer's patients to use (oft
 
 I developed this website taking into mind the fact that I would not be maintaining it, so I was very careful to make sure it would be extremely easy to maintain and update for the final system administrator. I used a similiar system to that designed for the CMCBA that I had designed before.
 
-Before I finished, I created documentation on all site functionality to aide future administrators in maintaining the website. I also defined guidelines and technical specifications on the new logo I had created for the network that is now being used in all official material.
+Before I finished, I created documentation on all site functionality to aid future administrators in maintaining the website. I also defined guidelines and technical specifications on the new logo I had created for the network that is now being used in all official material.
 
 You may view my work [here](http://www.alzarnet.org/).
 
