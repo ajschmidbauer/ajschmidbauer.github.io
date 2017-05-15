@@ -16,6 +16,8 @@ My entire proof can be found [here](ocp.pdf).
 
 I developed an algorithm around the property to produce a heuristic solution to the data set provided. Based on n input, the algorithm has a worst case runtime of n^3, with a best case of n. For memory, the algorithm uses n^2 memory. 
 
+A repository containing the algorithm written in C++ and tools to manipulate the input and output data can be found [here](https://github.com/ajschmidbauer/OCPAlgorith).
+
 ## Results
 
 When considering the runtime, the algorithm produces very accurate results when compared to the optimal solution.
