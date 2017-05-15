@@ -22,9 +22,9 @@ When considering the runtime, the algorithm produces very accurate results when 
 
 Considering the famous 50 USA Landmarks data set:
 
-[solution](solution.png)
+![solution](solution.png)
 
-[solution](ocpsolution.png)
+![solution](ocpsolution.png)
 
 
 ## Presentation
