@@ -24,8 +24,17 @@ Considering the famous 50 USA Landmarks data set:
 
 ![solution](solution.png)
 
+Figure 1: Optimal Solution
+
 ![solution](ocpsolution.png)
 
+Figure 2: Algorithm Solution
+
+Comparing Figure 1 and Figure 2 yields an interesting view into how the algorithm works. It has some properties of a Greedy Algorithm, as seen in the north western region, while also having very high accuracy where the Greedy Algorithm would fail.
+
+In addition to the 50 USA Landmarks data set, I also examined the results of other data sets.
+
+![datasets](datasets.png)
 
 ## Presentation
 
