@@ -12,6 +12,8 @@ The front end was designed to be easy for all ages to understand and use (with r
 
 I worked closely with the association's members and the elected officers to ensure it met all legal and personal standards for a non profit website. In addition, great care was made to ensure the site represented the members' various interests in the best way possible.
 
+You may view my work [here](http://www.columbianamahoningbeekeepers.org/)
+
 ## Web Developer
 
 From 2016 to 2017 I did work with The Alzheimer Network as a freelance agent.
