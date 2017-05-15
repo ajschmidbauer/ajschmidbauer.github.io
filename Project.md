@@ -16,6 +16,8 @@ My entire proof can be found [here](ocp.pdf).
 
 I developed an algorithm around the property to produce a heuristic solution to the data set provided. Based on n input, the algorithm has a worst case runtime of n^3, with a best case of n. For memory, the algorithm uses n^2 memory. 
 
+The algorithm finds OCP's, connects them and considers them as a new singular node while maintaining the properties of a WCU graph to create a new WCU graph, then repeats until it has made a Hamiltonian Cycle. During runtime, it also works to prevent backtracing and other problems that may affect the final result.
+
 A repository containing the algorithm written in C++ and tools to manipulate the input and output data can be found [here](https://github.com/ajschmidbauer/OCPAlgorith).
 
 ## Results
